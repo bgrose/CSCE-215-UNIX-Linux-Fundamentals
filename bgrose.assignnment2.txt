@@ -1,0 +1,17 @@
+# Question 1:
+find /class/csce215/election2008 -name "*.csv"
+
+#Question 2
+find /class/csce215/election2008/Jul -name "*.csv"
+
+#Question 3
+find /class/csce215/election2008/Aug -name "Aug0*"
+
+#Question 4
+find /class/csce215/election2008 -name "Jul0*" && find /class/csce215/election2008 -name "Jun0*"
+
+#Question 5
+find /class/csce215/election2008 -name "Jan**.csv" && find /class/csce215/election2008 -name "Feb**.csv" && find /class/csce215/election2008 -name ".Mar**.csv" && find /class/csce215/election2008 -name ".May**.csv" && find /class/csce215/election2008 -name "Jun**.csv" && find /class/csce215/election2008 -name "Jul**.csv" && find /class/csce215/election2008 -name "Aug0*.csv"
+
+#Question 6
+head -n 53 $1 /class/csce215/election2008/*/*.csv | tail -n 51 $1
