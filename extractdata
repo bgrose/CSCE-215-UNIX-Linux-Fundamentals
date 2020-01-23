@@ -1,6 +1,1 @@
-#!/bin/bash
-touch ~/polls.csv
-
-for f in /class/csce215/election2008/*/*.csv ; do
-    tail -n +3 $f | head -n -1 >> ~/polls.csv ;
-done
+cat $1 | head -52 $1 | tail -51
