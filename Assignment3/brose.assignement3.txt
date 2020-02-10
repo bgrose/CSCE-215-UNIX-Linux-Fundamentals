@@ -1,0 +1,10 @@
+Part 1:
+1. cut -d',' -f 14 assignment3/polls.csv
+2. cut -d',' -f 14 polls.csv | sed -e "s/\^M//" | sort -u | wc -l
+
+Part 2:
+1.tr '[A-Z]' '[a-z]' < /class/csce215/Words > words
+2.sed -e n\;d < /class/csce215/Words  > words
+3.grep -c '^......$' </class/csce215/Words
+4.grep -c '^[ac]....$' </class/csce215/Words 
+5.grep "[b-df-hj-np-tv-z]\{6\}" </class/csce215/Words
