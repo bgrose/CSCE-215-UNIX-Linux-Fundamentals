@@ -14,7 +14,7 @@ main.o:	       main.cpp name.h
 	g++ -c -g main.cpp
 
 backup:
-	tar -zcvf bgrose.assignment4_1.tar.gz *.cpp Makefile *.h *.o readme
+	tar -zcvf bgrose.assignment4_1.tar.gz *.cpp Makefile *.h readme
 
 clean:
 	/bin/rm -f myname *.o
