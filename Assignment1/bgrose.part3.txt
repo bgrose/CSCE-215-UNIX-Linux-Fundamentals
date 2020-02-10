@@ -1,0 +1,16 @@
+Script started on Mon 13 Jan 2020 03:31:30 PM EST
+]0;bgrose@cocsce-l1d43-28 ~[01;32mbgrose@cocsce-l1d43-28[00m [01;34m~ $[00m #!/bin/sh
+]0;bgrose@cocsce-l1d43-28 ~[01;32mbgrose@cocsce-l1d43-28[00m [01;34m~ $[00m #
+]0;bgrose@cocsce-l1d43-28 ~[01;32mbgrose@cocsce-l1d43-28[00m [01;34m~ $[00m # Test script - written by Nick Stiffler
+]0;bgrose@cocsce-l1d43-28 ~[01;32mbgrose@cocsce-l1d43-28[00m [01;34m~ $[00m # Entry level script to be used by csce215 students.
+]0;bgrose@cocsce-l1d43-28 ~[01;32mbgrose@cocsce-l1d43-28[00m [01;34m~ $[00m if [ $# -eq 1 ]; then
+> STUDENTNAME=$USER
+> ASSIGNMENT=$1
+> else
+> echo "usage: ‘basename $0‘ [assignment]"
+> exit 1
+> fi
+usage: ‘basename bash‘ [assignment]
+exit
+
+Script done on Mon 13 Jan 2020 03:31:36 PM EST
