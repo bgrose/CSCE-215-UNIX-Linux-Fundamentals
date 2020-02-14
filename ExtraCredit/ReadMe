@@ -1,0 +1,8 @@
+ReadMe ex2
+
+In this code the code first initializes an array with a and b in positions 1 and 2 respectivy. In position 4, it puts c from the 
+array ch3[] which has cdef
+Then it displays the final characters are x any y, which is the same as
+ch1 and ch2 which are z and y. This is because of the pointers in the code
+The pointers are used to set the array values for the answers to different values
+
