@@ -1,0 +1,7 @@
+Program: main for findname
+Files; main.cpp Makefile findName.sh
+Programmer: Bradley Grose (bgrose)
+Course: CSCE215
+Target: Linux
+
+Description: This program runs a script that searches a file database for a user id to see if the student is enrolled in CSCE215 this semester
