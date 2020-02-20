@@ -1,0 +1,1 @@
+Linux cocsce-l1d43-05 4.15.0-52-generic #56~16.04.1-Ubuntu SMP Thu Jun 6 12:03:31 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
