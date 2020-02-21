@@ -7,14 +7,14 @@ using namespace std;
  * Author/copyright:  Duncan Buell. All rights reserved.
  * Date: 28 December 2014
  *
- * Revised: put your name here.
- * Date: put todays date here.
+ * Revised: Bradley Grose.
+ * Date: 20 February 2020.
 **/
 
 int main(int argc, char *argv[])
 {
   cout << "Hello, world." << endl;
-  cout << "My name is Thomas Tankengine." << endl;
+  cout << "My name is Bradley Grose." << endl;
 
   return 0;
 }
