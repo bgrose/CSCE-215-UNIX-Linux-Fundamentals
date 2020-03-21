@@ -1,0 +1,12 @@
+/acct/bgrose/215
+├── assignment1
+│   ├── bgrose.part3.txt
+│   ├── bgrose.tree.txt
+│   └── whoami.info.txt
+├── assignment2
+├── assignment3
+├── assignment4
+├── finalProject
+└── header.txt
+
+5 directories, 4 files

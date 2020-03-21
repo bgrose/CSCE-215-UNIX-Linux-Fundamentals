@@ -1,0 +1,28 @@
+Script started on Sat 21 Mar 2020 03:28:20 PM EDT
+whoami
+printf "$USER\n"
+echo $USER
+whoami
+echo $HOSTNAME
+echo $(date +"%m-%d-%Y")
+echo $(date +"%r")
+tree ~/215 > ~/215/assignment1/`whoami`.tree.txt
+exit]0;bgrose@cocsce-l1d43-01 ~/215/assignment1[01;32mbgrose@cocsce-l1d43-01[00m [01;34m~/215/assignment1 $[00m whoami
+bgrose
+]0;bgrose@cocsce-l1d43-01 ~/215/assignment1[01;32mbgrose@cocsce-l1d43-01[00m [01;34m~/215/assignment1 $[00m printf "$USER\n"
+bgrose
+]0;bgrose@cocsce-l1d43-01 ~/215/assignment1[01;32mbgrose@cocsce-l1d43-01[00m [01;34m~/215/assignment1 $[00m echo $USER
+bgrose
+]0;bgrose@cocsce-l1d43-01 ~/215/assignment1[01;32mbgrose@cocsce-l1d43-01[00m [01;34m~/215/assignment1 $[00m whoami
+bgrose
+]0;bgrose@cocsce-l1d43-01 ~/215/assignment1[01;32mbgrose@cocsce-l1d43-01[00m [01;34m~/215/assignment1 $[00m echo $HOSTNAME
+cocsce-l1d43-01
+]0;bgrose@cocsce-l1d43-01 ~/215/assignment1[01;32mbgrose@cocsce-l1d43-01[00m [01;34m~/215/assignment1 $[00m echo $(date +"%m-%d-%Y")
+03-21-2020
+]0;bgrose@cocsce-l1d43-01 ~/215/assignment1[01;32mbgrose@cocsce-l1d43-01[00m [01;34m~/215/assignment1 $[00m echo $(date +"%r")
+03:28:21 PM
+]0;bgrose@cocsce-l1d43-01 ~/215/assignment1[01;32mbgrose@cocsce-l1d43-01[00m [01;34m~/215/assignment1 $[00m tree ~/215 > ~/215/assignment1/`whoami`.tree.txt
+]0;bgrose@cocsce-l1d43-01 ~/215/assignment1[01;32mbgrose@cocsce-l1d43-01[00m [01;34m~/215/assignment1 $[00m exit
+exit
+
+Script done on Sat 21 Mar 2020 03:28:33 PM EDT
