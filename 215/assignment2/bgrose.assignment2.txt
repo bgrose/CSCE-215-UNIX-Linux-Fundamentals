@@ -1,0 +1,24 @@
+# Bradley Grose
+# CSCE215.853
+# Assignment 2
+##############
+ 
+
+# Question 1:
+find /class/csce215/election2008 -name "*.csv"
+
+# Question 2
+find /class/csce215/election2008/Jul -name "*.csv"
+
+# Question 3
+find /class/csce215/election2008/Aug -iname "Aug0*"
+
+# Question 4
+find /class/csce215/election2008 -iname "Jul0*" && find /class/csce215/election2008 -iname "Jun0*"
+
+# Question 5
+find /class/csce215/election2008 -name "Jan**.csv" && find /class/csce215/election2008 -name "Feb**.csv" && find /class/csce215/election2008/.Mar -name "Mar**.csv" &&  find /class/csce215/election2008 -name "Apr**.csv" && find /class/csce215/election2008/.May -name "May**.csv" && find /class/csce215/election2008 -name "Jun**.csv" && find /class/csce215/election2008 -name "Jul**.csv" && find /class/csce215/election2008 -name "Aug0*.csv"
+
+# Question 6 
+find /class/csce215/election2008/ -name "*.csv" -exec ./extractdata {} > polls.csv {} \;
+
