@@ -1,0 +1,26 @@
+# Bradley Grose
+# CSCE215.853
+# Assignment 3
+##############
+ 
+# Question 1
+cut -d',' -f 14 polls.csv
+
+# Question 2
+cut -d',' -f 14 polls.csv | sort -u | wc -l
+
+# Question 3
+tr '[A-Z]' '[a-z]' < /class/csce215/Words
+
+# Question 4
+sed -e n\;d < /class/csce215/Words
+
+# Question 5
+grep -c -o "[a-z]\{5\}" < words
+
+# Question 6
+grep -c -o "[b,d][a-z]\{5\}" < words
+
+# Question 7
+grep -c -o '[bcdfghjklmnpqrstvwxyz]\{6\}' < words
+
