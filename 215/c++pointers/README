@@ -1,0 +1,15 @@
+Bradley Grose
+Ex2
+
+What does it do:
+First, the code will set ptr[0] to a and ptr[1] to b
+THen it will set ptr[2] to c, as it is first value in array, then it will print out the full original ray.
+Then it will change ptr[0] to z and ptr[1] to y
+However, because the variabkes in those spots point to that of ch1 and ch2, the values of ch1 and 2 are changed to z and y as well
+
+File contains: ex2.cpp
+Makefile
+Readme
+
+Made: 4/16/2020
+bgrose user

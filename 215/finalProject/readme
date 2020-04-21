@@ -1,0 +1,25 @@
+# Bradley Grose
+# CSCE215.853
+# Final Project
+##############
+
+Files included = findName.sh findName.cpp, makefile, readme
+
+Description: This program runs a script that will search through a file to see if a student is taking CSCE215 this semester and return their full name, or if they are not in the class. It can take in one argument, or it will give an error message
+
+Using make, the c++ code will create a findName executable program that uses the shell scipt
+Using make clean, it will remove any unnecasary files from the folder
+Using make backup, it will package the neccisary compiling files into a tar, which can be used for file submission
+
+
+Example Commands:
+$ tar xvf bgrose.findname.tar
+$ make
+$ make clean
+$ make backup
+$ ./findName.sh cem32
+$ ./findName.sh hngu
+$ ./findName.sh cem32 cem32 cem32 cem32
+$ ./findName cem32
+$ ./findName cem32 cem32 cem32 cem32
+
